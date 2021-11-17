@@ -74,8 +74,7 @@ def autouse_db(db):
 @pytest.fixture
 def get_ticket(client):
     def _inner(raffle_id):
-        # resp = client.post(f"/raffles/{raffle_id}/participate/",
-        #                    REMOTE_ADDR=make_ip())
+        
         
         participate_raffle_url = reverse('raffle_participate',kwargs={'id':raffle_id})
 
