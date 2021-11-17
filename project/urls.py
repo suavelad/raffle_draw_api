@@ -25,7 +25,7 @@ schema_view = get_schema_view(
     openapi.Info(
         title="RAFFLE DRAW GAME  API",
         default_version='v1',
-        description="Asessement with Nord Health",
+        description="Raffle Draw Game API",
         terms_of_service="Be Save",
         contact=openapi.Contact(email="sunnexajayi@gmail.com"),
         license=openapi.License(name="Test License"),

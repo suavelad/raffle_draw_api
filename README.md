@@ -12,7 +12,7 @@ pytest
 
 
 
-MANAGER_IPS=['123.123.123.123','127.0.0.1']
+MANAGER_IPS=['123.123.123.123','127.0.0.2']
 
 Endpoint documentation can be found on the: {base url of the project}/docs/ and can be tested  
 (Example: http://localhost:8000/docs)
